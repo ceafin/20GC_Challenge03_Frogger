@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://bahv06f7wrfy6"]
+
+[ext_resource type="Texture2D" uid="uid://bdnt5p5k0tsla" path="res://assets/max_bg_resolution_rect.png" id="1_wtcfe"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="MaxBgResolutionRect" type="Sprite2D" parent="."]
+texture = ExtResource("1_wtcfe")
+centered = false
