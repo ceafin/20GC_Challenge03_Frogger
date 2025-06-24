@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://bahv06f7wrfy6"]
+
+[ext_resource type="Texture2D" uid="uid://q8lnso5ku6xq" path="res://assets/frogger_template.png" id="2_rnjyy"]
+[ext_resource type="PackedScene" uid="uid://5jjgeucypj3l" path="res://scenes/frog.tscn" id="3_4vge2"]
+[ext_resource type="PackedScene" uid="uid://bu6534cn2gnws" path="res://scenes/car.tscn" id="3_rnjyy"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="FroggerTemplate" type="Sprite2D" parent="."]
+texture = ExtResource("2_rnjyy")
+centered = false
+
+[node name="Frog" parent="." instance=ExtResource("3_4vge2")]
+position = Vector2(40, 18)
+
+[node name="Car" parent="." instance=ExtResource("3_rnjyy")]
+position = Vector2(152, 76)

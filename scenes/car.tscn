@@ -1,0 +1,45 @@
+[gd_scene load_steps=7 format=3 uid="uid://bu6534cn2gnws"]
+
+[ext_resource type="Script" uid="uid://b3vgptgyop45n" path="res://scripts/car.gd" id="1_qt2eu"]
+[ext_resource type="Texture2D" uid="uid://bpf8fufsdc5w5" path="res://assets/car.png" id="2_50v30"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jtldb"]
+size = Vector2(12, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qt2eu"]
+atlas = ExtResource("2_50v30")
+region = Rect2(0, 0, 16, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_50v30"]
+atlas = ExtResource("2_50v30")
+region = Rect2(16, 0, 16, 12)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_cp117"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qt2eu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_50v30")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Car" type="Area2D"]
+script = ExtResource("1_qt2eu")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_jtldb")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+scale = Vector2(0.9, 0.4)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_cp117")
+autoplay = "default"
+frame_progress = 0.744211
+
+[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]
