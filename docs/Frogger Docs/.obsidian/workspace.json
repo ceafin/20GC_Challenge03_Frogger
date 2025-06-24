@@ -1,0 +1,176 @@
+{
+  "main": {
+    "id": "a53533d898ca7b0c",
+    "type": "split",
+    "children": [
+      {
+        "id": "2f17b2136d1344bf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5009ba395a52c0ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "The 20 Games Challenge - Level 3 - Frogger.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "The 20 Games Challenge - Level 3 - Frogger"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cebef8a7fc664245",
+    "type": "split",
+    "children": [
+      {
+        "id": "f12d6c04e25bb6ac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0c19dc66cf70cbf5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "dfb241c9e059425b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "e90ade42c1c52fa6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bae6d53d8b5a4acf",
+    "type": "split",
+    "children": [
+      {
+        "id": "f714ddb6f33dcc51",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "35bc78b0109b4b44",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "The 20 Games Challenge - Level 3 - Frogger.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for The 20 Games Challenge - Level 3 - Frogger"
+            }
+          },
+          {
+            "id": "1f2987fbd18310c1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "The 20 Games Challenge - Level 3 - Frogger.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from The 20 Games Challenge - Level 3 - Frogger"
+            }
+          },
+          {
+            "id": "1ef1150396a0e104",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "94b7c6053cf1ae01",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "The 20 Games Challenge - Level 3 - Frogger.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of The 20 Games Challenge - Level 3 - Frogger"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "5009ba395a52c0ee",
+  "lastOpenFiles": [
+    "The 20 Games Challenge - Level 3 - Frogger.md",
+    "Welcome.md"
+  ]
+}
